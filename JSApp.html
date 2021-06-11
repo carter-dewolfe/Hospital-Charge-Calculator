@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="JSApp.js"></script>
+</head>
+<body>
+    <h1>Hospital Charges</h1>
+    <br />
+    <br />
+    <table style="width:40%;">
+        <tr><td>Days spent in the hospital:</td><td><input id="daysSpent" type="number" /></td><td>&nbsp;</td></tr>
+        <tr><td>Medical charges:</td><td><input id="medCharges" type="number" /></td><td>&nbsp;</td></tr>
+        <tr><td>Surgical charges:</td><td><input id="surgeryCharges" type="number" /></td><td>&nbsp;</td></tr>
+        <tr><td>Lab fees:</td><td><input id="labCharges" type="number" /></td><td>&nbsp;</td></tr>
+        <tr><td>Physical rehabilitation charges:</td><td><input id="rehabCharges" type="number" /></td><td>&nbsp;</td></tr>
+    </table>
+    <br />
+    <input id="Button1" type="button" onclick="MyFunction()" value="Calculate" />
+    <br />
+    <br />
+    Stay charges: <label id="stayCharge"></label>
+    <br />
+    Misc charges: <label id="miscCharge"></label>
+    <br />
+    Total charges: <label id="totalCharge"></label>
+</body>
+</html>
